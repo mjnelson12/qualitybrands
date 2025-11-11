@@ -35,7 +35,8 @@ header {
     text-align: center;
     border: 1px solid #888888;
     box-shadow: 15px 15px 5px 0 #888888;
-    border-radius: 25px;  	
+    border-radius: 25px;
+	background-color: #fcf8f2;
 }
 
 nav {
@@ -71,7 +72,6 @@ nav ul li a:hover {
     color: black;
     border-left: 2px solid;
     border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
 }
 
 #main p {
@@ -115,9 +115,9 @@ footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: gray;
+    background-color: #0b3859;
     clear: both;
-    color: wheat;
+    color: white;
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
@@ -143,4 +143,21 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: .2em;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
