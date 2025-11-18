@@ -2,7 +2,7 @@
 /*
    sample start file for final project - educational use only
    
-   Author:   
+   Author:   MJ Nelson
    Date:     
    
   
@@ -71,7 +71,8 @@ nav ul li a:hover {
     float: left;
     color: black;
     border-left: 2px solid;
-    border-right: 2px solid;    
+    border-right: 2px solid;
+	text-align: center;
 }
 
 #main p {
@@ -160,4 +161,14 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.center {
+	text-align: justify;
 }
